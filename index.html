@@ -1,20 +1,73 @@
-
 <!DOCTYPE html>
 
 <html>
   <head>
-    <title>HTML Skeleton</title>
+    <title>Profile</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, user-scalable=no" />
     <style>
-      /* You can put any CSS styles here */
+      body {
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        margin: 0;
+      }
+      main {
+        padding: 150px;
+      }
       img {
         max-width: 100%;
+        width: 100px;
+      }
+      footer {
+        font-size: 10px;
+        margin: 5em auto;
+      }
+      img.profile {
+        height: 300px;
+        width: 300px;
+      }
+      img.item {
+        height: 100px;
+        width: auto;
       }
     </style>
   </head>
   <body>
-    <!-- You can put your HTML here -->
-    Bonjour tout le monde!!!
+    <!-- This page has been inspired by https://tosic.com -->
+    <main>
+      <img
+        src="images/smiley.jpg"
+        class="profile"
+        alt="a yellow smiley face emoticon"
+      />
+
+      <br /><br /><br />
+
+      <b>Favorite Fruit</b><br />
+      The Humble Apple.🍎
+
+      <br /><br />
+
+      <b>Three Things in My Bag</b><br />
+      <img
+        src="images/baguette.jpeg"
+        class="item"
+        alt="A picture of a baguette"
+      />
+      <img
+        src="images/kitchen-storage-container.webp"
+        class="item"
+        alt="a stack of tupperwares"
+      />
+      <img src="images/tascam.jpeg" class="item" alt="a tascam portable sound recording device" />
+
+      <br /><br />
+
+      <b>My Personal “Prof. Dr. Style” of 2024</b><br />
+
+      1 — enjoy learning and doing cool things like coding a website like this<br />
+      2 — express myself uniquely each day as much as possible<br />
+      3 — do and dont be afraid whenever and wherever I like
+    </main>
   </body>
 </html>
